@@ -1,0 +1,5 @@
+pip install english-words
+from english_words import english_words_lower_alpha_set
+for word in english_words_lower_alpha_set:
+    if 'a' in word and 'o' in word and 's' in word and len(word) is 5:
+        print (word)
